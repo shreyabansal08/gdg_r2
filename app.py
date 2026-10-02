@@ -8,8 +8,11 @@ import sqlite3
 import time
 from datetime import datetime, timezone
 from urllib.parse import urlsplit
+from dotenv import load_dotenv
 
 from flask import Flask, g, jsonify, redirect, request
+
+load_dotenv()
 
 db_path = os.environ.get("DB_PATH", "shortener.db")
 base_url = os.environ.get("BASE_URL", "").rstrip("/")
