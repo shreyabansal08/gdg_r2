@@ -5,8 +5,8 @@ A small Flask app that shortens urls, redirects visitors, and tracks clicks. Dat
 ## Setup
 
 ```bash
-git clone <repo-url>
-cd <repo-folder>
+git clone https://github.com/shreyabansal08/gdg_r2
+cd <folder>
 
 python -m venv venv
 source venv/bin/activate        # windows cmd: venv\Scripts\activate
@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ## Run
 
 ```bash
-export API_KEY="pick-a-long-secret"     # windows cmd: set API_KEY=...
+export API_KEY="pickyourkey"     # windows cmd: set API_KEY=...
 python app.py
 ```
 
