@@ -45,5 +45,5 @@ curl -X POST http://127.0.0.1:5000/shorten \
 
 curl -L http://127.0.0.1:5000/<code>
 curl http://127.0.0.1:5000/stats/<code>
-curl -X DELETE http://127.0.0.1:5000/<code> -H "X-API-Key: pick-a-long-secret"
+curl -X DELETE http://127.0.0.1:5000/<code> -H "X-API-Key: yourkey"
 ```
